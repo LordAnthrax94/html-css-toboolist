@@ -8,16 +8,43 @@ body{
   background-color: lightgray;
 }
 
+.container{width: 950px;
+  max-width: 1000px ;  
+  margin: 0 auto;
+ }
+
 header{
   background-color: white;
   background-size: 100px;
   padding-left: 15px;
   padding-top: 10px;
+  margin: 0 auto ;
 }
+
+header .instest img{width: 150px;}
 
 header .titolo{
  display: inline;
  font-size: 2.8rem;
  margin: 2px 2px;
  vertical-align: top;
+ font-weight: bold;
 }
+
+.list{
+  background-color: white;
+  border-width: 250px;
+}
+
+.pulsante{
+  background-color: white;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.titlelist{padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;}
