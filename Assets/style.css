@@ -15,7 +15,9 @@ header{
   padding-top: 10px;
 }
 
-header .titolo{display: inline;
-font-size: 2rem;
-
+header .titolo{
+ display: inline;
+ font-size: 2.8rem;
+ margin: 2px 2px;
+ vertical-align: top;
 }
