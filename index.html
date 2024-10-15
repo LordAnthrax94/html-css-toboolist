@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Assets/style.css">
   <title>Toboolist</title>
 </head>
@@ -23,32 +24,34 @@
 
 <main class="container">
   
-  <div class="list">
-    <button class="pulsante">Add Task</button>
-    <button class="pulsante">Add Section</button>
+  <div class="listblock">
+    <button class="pulsante" id="puls1">Add Task</button>
+    <button class="pulsante" id="puls2">Add Section</button>
+
+    <hr class="divisore">
 
     <h3 class="titlelist">&#11206; New Task</h3>
 
-    <ul>
-      <li>Quarterly Newsletter<span>Editorial</span></li>
+    <ul class="list">
+      <li class="listelement">Quarterly Newsletter <span class="badge">Editorial</span></li>
     </ul>
 
     <h3 class="titlelist">&#11206; Today</h3>
 
-    <ul>
-      <li>Recruiting blog post <span>Editorial</span></li>
-      <li>Mobile app launch <span>Q1 Goals</span></li>
-      <li>Interview John H. <span>Recruiting</span></li>
-      <li>Summit update to mobile storefronts <span>Mobile</span></li>
+    <ul class="list">
+      <li class="listelement">Recruiting blog post <span class="badge">Editorial</span></li>
+      <li class="listelement">Mobile app launch <span class="badge">Q1 Goals</span></li>
+      <li class="listelementneg">Interview John H. <span class="badge">Recruiting</span></li>
+      <li class="listelement">Summit update to mobile storefronts <span class="badge">Mobile</span></li>
     </ul>
 
-    <h3 class="titlelist">&#11206; Upcoming <span></span></h3>
+    <h3 class="titlelist">&#11206; Upcoming </h3>
 
-    <ul>
-      <li>Schedule meeting with Alex <span></span></li>
-      <li>Homepage refresh <span>Website</span></li>
-      <li>Onboard new Sales team members <span>Sales</span></li>
-      <li>Review editorial calendar <span>Editorial</span></li>
+    <ul class="list">
+      <li class="listelementneg">Schedule meeting with Alex </li>
+      <li class="listelement">Homepage refresh <span class="badge">Website</span></li>
+      <li class="listelement">Onboard new Sales team members <span class="badge">Sales</span></li>
+      <li class="listelement">Review editorial calendar <span class="badge">Editorial</span></li>
     </ul>
 
   </div>

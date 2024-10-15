@@ -6,10 +6,11 @@
 
 body{
   background-color: lightgray;
+  font-style: Ro;
 }
 
-.container{width: 950px;
-  max-width: 1000px ;  
+.container{
+  max-width: 1000px;  
   margin: 0 auto;
  }
 
@@ -31,18 +32,47 @@ header .titolo{
  font-weight: bold;
 }
 
-.list{
+.listblock{
   background-color: white;
-  border-width: 250px;
+  border-width: 250px;  
+  margin-top: 40px;
+  padding-top: 10px; 
+  padding-bottom: 50px; 
 }
 
-.pulsante{
-  background-color: white;
-  line-height: 50px;
-  vertical-align: middle;
-  text-align: center;
-  border-radius: 2px;
+.list{
+  margin-left: 40px;
 }
+
+.listblock .pulsante{
+  color:white;
+  border-top-left-radius: 2px;
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px;  
+  background-color: rgb(67, 175, 239);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+  
+}
+
+.listblock .pulsante#puls1{
+}
+
+.listblock .pulsante#puls2{
+  color:gray;
+  background-color: white;
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+  
+
+}
+
+.divisore{ margin-top: 10px;
+  
+ }
 
 .titlelist{
  padding-top: 20px;
@@ -50,5 +80,26 @@ header .titolo{
  padding-right: 20px;
  padding-bottom: 20px;
  margin: 15px;
+ font-weight: bold;
 }
 
+
+.list .listelement::before{
+  content: '&check;';
+}
+
+.badge{
+  background-color: rgb(63, 177, 232);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+
+.titlelist .list .listelement .listelementneg{
+  padding-top: 10px;
+}
