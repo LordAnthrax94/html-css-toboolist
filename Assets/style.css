@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+}
+
+header{
+  background-color: white;
+  background-size: 100px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+header .titolo{display: inline;
+font-size: 2rem;
+
+}
