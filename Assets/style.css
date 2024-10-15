@@ -105,8 +105,67 @@ header .titolo{
   
 }
 
+
+#badgepurple{
+  background-color: rgb(154, 116, 224);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+
+#badgegreen{
+  background-color: rgb(102, 193, 169);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
+
+}
+
+#badgeorange{
+  background-color: rgb(251, 156, 49);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
+  
+}
+
+#badgepink{
+  background-color: rgb(215, 100, 168);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+
 #badgegr{
   background-color: rgb(176, 203, 37);
+  display: inline-block;
+  width: 60px;
+  height: 20px;    
+  text-align: center;
+  border-radius: 10px;
+  color:white;
+  font-size: 0.7rem;
+  vertical-align: middle;
 }
 
 
