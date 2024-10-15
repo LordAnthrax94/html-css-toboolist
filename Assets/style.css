@@ -6,7 +6,7 @@
 
 body{
   background-color: lightgray;
-  font-style: Ro;
+  font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -101,9 +101,12 @@ header .titolo{
   color:white;
   font-size: 0.7rem;
   vertical-align: middle;
+  
 }
 
-.badge#badgegr{background-color: rgb(176, 203, 37);}
+#badgegr{
+  background-color: rgb(176, 203, 37);
+}
 
 
 .listelement::before{content:'✓';padding: 5px; color: greenyellow;}
